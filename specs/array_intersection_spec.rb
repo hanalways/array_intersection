@@ -24,7 +24,6 @@ describe "array intersection" do
       array1 = [92, 2, 5, 90]
       array2 = [89, 76, 4, 1]
       expected_intersection = []
-
       intersection(array1, array2).sort!.must_equal expected_intersection
     end
   end
